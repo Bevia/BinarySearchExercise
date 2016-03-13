@@ -14,12 +14,11 @@ class BinarySearchOuterClass {
 
         int lowIndex = 0;
         int highIndex = 0;
-        int index = 0;
 
         public int binarySearchExercise(int value) {
 
             int[] myInts = {11, 15, 56, 76, 87, 97, 45, 62, 8, 62, 48, 33};
-            //from this array use binary search to fin the index where number 45 resides!
+            //from this array use binary search to fin the index where number x resides!
 
             //Find Length of Array:
             highIndex = myInts.length;
